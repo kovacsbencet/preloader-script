@@ -1,12 +1,18 @@
+/* PRELOADER */
+
 #preloader{
     width: 100vw;
     height: 100vh;
     position: absolute;
-    background-image: url("pizzasmile.png");
+    background-image: url("pizzahead.png");
     background-position: center;
     background-repeat: no-repeat; 
-    background-size: 500px 500px;
+    background-size: 400px 400px;
 }
+/* END OF PRELOADER */
+
+
+/* PRELOAD CIRCLE ELEMENTS */
 
 #preloader div{
     background-color: white;
@@ -14,42 +20,41 @@
     position: absolute;
     animation: move 5s linear;
 }
-
 #preloader div:nth-child(1){
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     bottom: 0%;
     left: 46%;
     animation: move1 1s ease-in-out;
     animation-fill-mode: forwards;
 }
  #preloader div:nth-child(2){
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     bottom: 0%;
     left: 48%;
     animation: move2 2s ease-in-out;
     animation-fill-mode: forwards;
 }
 #preloader div:nth-child(3){
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     bottom: 0%;
     left: 50%;
     animation: move3 3s ease-in-out;
     animation-fill-mode: forwards;
 }
 #preloader div:nth-child(4){
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     bottom: 0%;
     left: 44%;
     animation: move4 4s ease-in-out;
     animation-fill-mode: forwards;
 }
 #preloader div:nth-child(5){
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     bottom: 0%;
     left: 46%;
     animation: move5 5s ease-in-out;
@@ -67,7 +72,7 @@
     width: 150px;
     height: 150px;
     bottom: 0%;
-    left: 44%;
+    left: 40%;
     animation: move7 7s ease-in-out;
     animation-fill-mode: forwards;
 }
@@ -104,6 +109,10 @@
     animation-fill-mode: forwards;
 }
 
+/* END OF PRELOAD CIRCLE ELEMENTS */
+
+
+/* KEYFRAME ANIMATIONS */
 
 @keyframes move1{
     0%{
@@ -111,7 +120,7 @@
         
     }
     100%{
-        top: 57%;
+        top: 60%;
     }
 } 
 @keyframes move2{
@@ -165,7 +174,7 @@
         
     }
     100%{
-        top: 37%;
+        top: 40%;
     }
 }
 @keyframes move8{
@@ -204,3 +213,5 @@
         top: 50%;
     }
 }
+
+/* END OF KEYFRAME ANIMATIONS */
