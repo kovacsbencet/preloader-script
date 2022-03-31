@@ -1,0 +1,4 @@
+function preloaderAnimation () {
+    
+}
+preloaderAnimation()

@@ -1,0 +1,206 @@
+#preloader{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-image: url("pizzasmile.png");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: 500px 500px;
+}
+
+#preloader div{
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    animation: move 5s linear;
+}
+
+#preloader div:nth-child(1){
+    width: 100px;
+    height: 100px;
+    bottom: 0%;
+    left: 46%;
+    animation: move1 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+ #preloader div:nth-child(2){
+    width: 120px;
+    height: 120px;
+    bottom: 0%;
+    left: 48%;
+    animation: move2 2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+#preloader div:nth-child(3){
+    width: 100px;
+    height: 100px;
+    bottom: 0%;
+    left: 50%;
+    animation: move3 3s ease-in-out;
+    animation-fill-mode: forwards;
+}
+#preloader div:nth-child(4){
+    width: 120px;
+    height: 120px;
+    bottom: 0%;
+    left: 44%;
+    animation: move4 4s ease-in-out;
+    animation-fill-mode: forwards;
+}
+#preloader div:nth-child(5){
+    width: 100px;
+    height: 100px;
+    bottom: 0%;
+    left: 46%;
+    animation: move5 5s ease-in-out;
+    animation-fill-mode: forwards;
+}
+#preloader div:nth-child(6){
+    width: 150px;
+    height: 150px;
+    bottom: 0%;
+    left: 50%;
+    animation: move6 6s ease-in-out;
+    animation-fill-mode: forwards;
+}
+#preloader div:nth-child(7){
+    width: 150px;
+    height: 150px;
+    bottom: 0%;
+    left: 44%;
+    animation: move7 7s ease-in-out;
+    animation-fill-mode: forwards;
+}
+#preloader div:nth-child(8){
+    width: 120px;
+    height: 120px;
+    bottom: 0%;
+    left: 48%;
+    animation: move8 8s ease-in-out;
+    animation-fill-mode: forwards;
+}
+#preloader div:nth-child(9){
+    width: 150px;
+    height: 150px;
+    bottom: 0%;
+    left: 52%;
+    animation: move9 9s ease-in-out;
+    animation-fill-mode: forwards;
+}
+#preloader div:nth-child(10){
+    width: 120px;
+    height: 120px;
+    bottom: 0%;
+    left: 44%;
+    animation: move10 10s ease-in-out;
+    animation-fill-mode: forwards;
+}
+#preloader div:nth-child(11){
+    width: 120px;
+    height: 120px;
+    bottom: 0%;
+    left: 42%;
+    animation: move11 11s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes move1{
+    0%{
+        bottom: 0%;
+        
+    }
+    100%{
+        top: 57%;
+    }
+} 
+@keyframes move2{
+    0%{
+        bottom: 0%;
+        
+    }
+    100%{
+        top: 52%;
+    }
+} 
+@keyframes move3{
+    0%{
+        bottom: 0%;
+        
+    }
+    100%{
+        top: 47%;
+    }
+} 
+@keyframes move4{
+    0%{
+        bottom: 0%;
+        
+    }
+    100%{
+        top: 47%;
+    }
+} 
+@keyframes move5{
+    0%{
+        bottom: 0%;
+        
+    }
+    100%{
+        top: 42%;
+    }
+} 
+@keyframes move6{
+    0%{
+        bottom: 0%;
+        
+    }
+    100%{
+        top: 42%;
+    }
+}
+@keyframes move7{
+    0%{
+        bottom: 0%;
+        
+    }
+    100%{
+        top: 37%;
+    }
+}
+@keyframes move8{
+    0%{
+        bottom: 0%;
+        
+    }
+    100%{
+        top: 32%;
+    }
+}
+@keyframes move9{
+    0%{
+        bottom: 0%;
+        
+    }
+    100%{
+        top: 37%;
+    }
+}
+@keyframes move10{
+    0%{
+        bottom: 0%;
+        
+    }
+    100%{
+        top: 32%;
+    }
+}
+@keyframes move11{
+    0%{
+        bottom: 0%;
+        
+    }
+    100%{
+        top: 50%;
+    }
+}
